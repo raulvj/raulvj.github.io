@@ -8682,7 +8682,7 @@ p {
 }
 
 ::selection {
-  background: #fed136;
+  background: #159957;
   text-shadow: none;
 }
 
@@ -8780,8 +8780,9 @@ header.masthead .masthead-heading {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
-  opacity: 1;
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover:hover {
+  opacity: 0.75;
+
 }
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
@@ -8895,7 +8896,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 100%;
   background-color: #5fa5a1;
 }
